@@ -1,0 +1,179 @@
+html
+{
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+body
+{
+	width: 80%;	
+	margin-left:10%;
+	margin-right:10%;
+	font-family:Arial;	
+}
+
+#header
+{
+	width: 100%;		
+	background-color: black;	
+	margin-bottom: 10px;
+	border-style:solid;
+	/*border-width: 1px;
+	border-color: red;*/
+	border-radius: 10px;	
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	height: 130px;/**/
+}
+
+#headerText
+{
+	font-family: Arial;	
+	background-color: black;
+	color: white;	
+	/*border-style:solid;
+	border-color: red;*/
+	border-width: 1px;	
+	border-radius: 10px;
+	font-size: 38px;
+	font-weight: bold;
+	position: relative;
+	padding-bottom:	10px;
+	float: left;
+	width: 35%;
+}
+
+#headerBlurb
+{
+	background-color: black;
+	color: white;
+	font-size: 14px;			
+	position: relative;	
+	font-weight: bold;
+	padding-bottom:	10px;
+	float: left;
+	width: 64%;
+	
+	/*border-style:solid;
+	border-color: red;
+	border-width: 1px;	*/
+}
+
+#sectionHeader
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	font-family: Arial;	
+	position:relative;	
+	font-size:22px;
+	font-weight:bold;
+	background-color:black;
+	color:white;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+#orderSection
+{		
+	padding:10px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 15px;
+	font-family: Arial;	
+	position:relative;	
+	width:100%;
+	margin-bottom:10px;
+}
+
+#orderForm
+{
+	/*border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;*/
+	font-family: Arial;	
+	position:relative;			
+}
+
+#orderFormOutput
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color: grey;
+	border-radius: 10px;
+	font-family: Arial;	
+	position:relative;		
+	width:98%;
+	height:200px;
+	overflow-y: scroll;
+	padding: 10px;
+}
+
+#packSection
+{		
+	padding:10px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 15px;
+	font-family: Arial;	
+	position:relative;	
+	width:100%;
+}
+
+#packSectionPacks
+{
+	/*border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 15px;*/
+	font-family: Arial;	
+	position:relative;	
+	width:100%;
+}
+
+#packSectionOutput
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color: grey;
+	border-radius: 15px;
+	font-family: Arial;	
+	position:relative;		
+	width:99%;
+	height:200px;
+	overflow-y: scroll;	
+	margin-top:10px;
+	padding-left:10px;
+}
+
+.wwTextBox
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color: grey;
+	border-radius: 10px;
+	font-family: Arial;	
+	font-size: 20px;
+	color:grey;
+	outline: 0; /*remove the focus border from the textboxes.  don't like it*/
+	padding-left: 5px; 	
+}
+
+.wwButton
+{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	border-style:solid;
+	border-width: 1px;	
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
